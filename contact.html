@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content= "Sean, design skills, portlfolio, images">
+<meta name="description" content="Sean is studying interaction design at ulster univeristy. Check out my website here!">
+    <title>Sean's Portfolio site </title>
+      
+
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	  <link href="css/styles.css" rel="stylesheet">
+	  <link href="css/mobile.css" rel="stylesheet">
+
+</head>
+
+<header id="navbar">
+			<h1>
+				<img src="images/SD%20Final%205.PNG" alt="Logo" height="140px"/>
+				Sean Downey
+			</h1>
+		</header>
+  <body>
+ <nav>
+          <a href="index.html">Home</a>
+	      <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html" class="active">Contact</a>
+		  
+</nav>	  
+
+<section class="main">
+    
+    
+    <h1>My details </h1>
+    
+    <p>Email: sdowney96@gmail.com</p>
+        <br/>
+    <p>Phone:07710877097 </p>
+       &nbsp;
+    <p>Name: Sean Downey</p> 
+    
+
+<h1>Please fill in the form</h1>
+    
+<form method="POST" name="contactform" action="contact-form-thank-you.html"> 
+    <p><img src="images/Contact.png" height"100" width="100"></p>
+<p>
+<label for='name'>Your Name:</label> <br>
+<input type="text" name="name">
+</p>
+<p>
+<label for='email'>Email Address:</label> <br>
+<input type="text" name="email"> <br>
+</p>
+<p>
+<label for='phone'>Phone Number:</label> <br>
+<input type="Number" name="Number"> <br>
+</p>
+    
+<p>
+<label for='message'>Message:</label> <br>
+<textarea name="message"></textarea>
+</p>
+
+    <p>
+      <input type="submit" value="Submit">
+      <input type="reset" value="reset">
+    </p>
+    
+    
+
+</form>
+
+   
+    
+    
+<script language="JavaScript">
+// Code for validating the form
+// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+// for details
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
+ 
+
+    
+      <footer>
+		  <div id="footerimg"></div>
+		  <div id="footercontent">
+              
+              <p>copyright &copy; Sean Downey 2021 </p>
+              
+                   <ul class="social-icons">
+                     <li><a href="https://www.facebook.com/seanyd1" target="_blank">
+                      <img src="Images/facebook.png" width="50" alt="" class="thumbnail"/></a></li>
+                      <li><a href="https://www.instagram.com/sd_designs123/" target="_blank"><img src="Images/instagram.png" width="50" alt="" class="thumbnail"&nbsp;/></a></li>
+                      <li><a href="https://www.linkedin.com/in/sean-downey-22b3891aa/" target="_blank"><img src="Images/linkedIn.png" width="50" alt="" class="thumbnail" &nbsp;/></a></li>
+                     <li><a href="mailto:Downey-S17@ulster.ac.uk" target="_blank"><img src="Images/outlook.png" width="50" alt="" class="thumbnail" &nbsp;/></a></li>
+                      
+             
+              </ul>
+
+		  </div>
+          
+	  </footer>
+ 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+ </body>
+</html>

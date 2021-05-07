@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	  <link href="css/styles.css" rel="stylesheet">
+	  <link href="css/mobile.css" rel="stylesheet">
+	
+</head>
+
+<title> Sean's Portfolio Site </title>
+	 <body>
+		<header id="navbar">
+                  <img src="images/SD%20Final%205.PNG" alt="Logo" height="140px"/>
+				Sean Downey
+		</header>
+
+ <nav>
+              <a href="index.html">Home</a>
+	      <a href="about.html" class="Active">About</a>
+	      <a href="site-service.html">Site Service</a>
+	      <a href="products.html">Products</a>
+              <a href="projects.html">Projects</a>
+              <a href="contact.html">Contact</a>
+</nav>	  
+
+<section class="main">
+<h1>Thank you!</h1>
+<p>Thank you for submitting your Request. We will contact you soon as possible!</p>
+
+<p>Back to contact Form <a href="Contact.html">Contact</a></p>
+
+
+<script language="JavaScript">
+// Code for validating the form
+// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+// for details
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
+<!--
+Sample code from:
+http://www.html-form-guide.com/contact-form/php-email-contact-form.html
+-->
+
+ </section>
+
+	
+
+</body>
+</html>

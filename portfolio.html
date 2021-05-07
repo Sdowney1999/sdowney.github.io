@@ -1,0 +1,118 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content= "Sean, design skills, portlfolio, images">
+<meta name="description" content="Sean is studying interaction design at ulster univeristy. Check out my website here!">
+    <title>Sean's Portfolio Website</title>
+
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	  <link href="css/styles.css" rel="stylesheet">
+	  <link href="mobile.css" rel="stylesheet">
+	
+</head>
+    
+	 <body>
+		<header>
+          	<h1>
+				<img src="images/SD%20Final%205.PNG" alt="Logo" height="140px"/>
+				Sean Downey
+			</h1>
+			
+			
+		</header>
+	
+    <nav>
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="portfolio.html" class="active">Portfolio</a>
+            <a href="contact.html">Contact</a>
+		</nav>
+         
+         
+   <section class="main">
+	
+    <h1>Projects</h1> 
+ 
+          <p>Here is a gallery of my most recent work to date.</p>
+  
+<div class="row">
+    <img src="images/Businesscard3.PNG" style="height:200px">
+    &nbsp; &nbsp;
+    <img src="images/Updated%20ipad%20design%201.png" style="height:200px">
+    &nbsp; &nbsp;
+    <img src="images/100%20ilertations%20Photoshop.png" style="height:200px">
+    &nbsp; &nbsp;
+    <img src="images/italian%20way.png" style="height:200px">
+    &nbsp; &nbsp;
+    <img src="images/updated%20mainfesto.png" style="height:200px">
+    &nbsp; &nbsp;
+    <img src="images/red%20sky%20avicii.jpg" style="height:200px">
+    &nbsp; &nbsp;
+     <img src="images/Mug%20sd.PNG" style="height:200px">
+   &nbsp; &nbsp;
+     <img src="images/SD%20T-shirt.PNG" style="height:200px">
+     &nbsp; &nbsp;
+    <img src="images/Phone%20cover-%20Digital%20Touchpoint.PNG" style="height:200px">
+    &nbsp; &nbsp;
+    <img src="images/Ireland.jpg" style="height:200px">
+    
+    
+  </div>
+<br>
+
+         </section>
+	
+    <footer>
+		 <div id="footerimg"></div>
+		  <div id="footercontent">
+              
+              <p>copyright &copy; Sean Downey 2021 </p>
+              
+                <ul class="social-icons">
+                     <li><a href="https://www.facebook.com/seanyd1" target="_blank">
+                      <img src="Images/facebook.png" width="50" alt="" class="thumbnail"/></a></li>
+                      <li><a href="https://www.instagram.com/sd_designs123/" target="_blank"><img src="Images/instagram.png" width="50" alt="" class="thumbnail"&nbsp;/></a></li>
+                      <li><a href="https://www.linkedin.com/in/sean-downey-22b3891aa/" target="_blank"><img src="Images/linkedIn.png" width="50" alt="" class="thumbnail" &nbsp;/></a></li>
+                     <li><a href="mailto:Downey-S17@ulster.ac.uk" target="_blank"><img src="Images/outlook.png" width="50" alt="" class="thumbnail" &nbsp;/></a></li>
+                      
+             
+              </ul>
+
+        </div>
+	  </footer>
+         
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+     
+
+</body>
+</html>
